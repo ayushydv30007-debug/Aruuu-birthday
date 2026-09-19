@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Aruuu 💗</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  min-height:100vh;
+  background:linear-gradient(135deg,#ff9ecb,#ffd6e9,#fff0f7);
+  color:#6b1645;
+  text-align:center;
+  overflow-x:hidden;
+}
+
+.container{
+  max-width:650px;
+  margin:auto;
+  padding:25px 15px 50px;
+}
+
+h1{
+  font-size:42px;
+  margin-top:20px;
+  color:#d41469;
+  text-shadow:0 3px 10px #ffffff;
+}
+
+.subtitle{
+  font-size:18px;
+  margin:10px 0 25px;
+}
+
+.card{
+  background:rgba(255,255,255,.82);
+  border-radius:25px;
+  padding:25px;
+  margin:20px 0;
+  box-shadow:0 10px 30px rgba(170,40,100,.2);
+}
+
+video{
+  width:100%;
+  border-radius:20px;
+  display:block;
+  margin:auto;
+}
+
+.message{
+  text-align:left;
+  line-height:1.8;
+  font-size:16px;
+  margin-top:15px;
+}
+
+.buttons{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:20px;
+}
+
+button{
+  border:none;
+  border-radius:18px;
+  padding:15px 10px;
+  font-size:16px;
+  font-weight:bold;
+  color:white;
+  background:linear-gradient(135deg,#ff4f9a,#d41469);
+  box-shadow:0 6px 15px rgba(180,30,100,.25);
+  cursor:pointer;
+}
+
+button:active{
+  transform:scale(.95);
+}
+
+#surprise{
+  margin-top:20px;
+  min-height:50px;
+  font-size:18px;
+  font-weight:bold;
+}
+
+.cake{
+  font-size:90px;
+  animation:bounce 1.5s infinite;
+}
+
+.hidden{
+  display:none;
+}
+
+.heart{
+  position:fixed;
+  bottom:-30px;
+  animation:float 5s linear forwards;
+  pointer-events:none;
+  z-index:10;
+}
+
+.balloon{
+  position:fixed;
+  font-size:45px;
+  animation:float 7s linear forwards;
+  pointer-events:none;
+  z-index:10;
+}
+
+footer{
+  margin-top:25px;
+  font-size:14px;
+  opacity:.75;
+}
+
+@keyframes bounce{
+  50%{transform:translateY(-12px)}
+}
+
+@keyframes float{
+  from{
+    transform:translateY(0) rotate(0deg);
+    opacity:1;
+  }
+  to{
+    transform:translateY(-110vh) rotate(360deg);
+    opacity:0;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Happy Birthday Aruuu 💗</h1>
+
+  <p class="subtitle">
+    ✨ Your special day, my special happiness ✨
+  </p>
+
+  <div class="card">
+
+    <div class="cake">🎂</div>
+
+    <h2>🎀 A Little Surprise For You 🎀</h2>
+
+    <p style="margin-top:10px;">
+      Someone very special deserves a very special birthday. 💗
+    </p>
+
+  </div>
+
+  <div class="card">
+
+    <h2>🎥 Your Birthday Video</h2>
+
+    <video controls playsinline>
+      <source src="birthday-video.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+
+    <p style="margin-top:12px;">
+      Watch your little surprise 💕
+    </p>
+
+  </div>
+
+  <div class="card">
+
+    <h2>💌 Birthday Wishes For Aruuu</h2>
+
+    <div class="message">
+
+      Happy Birthday Aruuu 💗🎂✨
+
+      <br><br>
+
+      Today is not just another day. Today is the day when someone very
+      special came into this beautiful world, and I hope your day is filled
+      with happiness, smiles, love and countless beautiful memories. 🥹💗
+
+      <br><br>
+
+      I wish that every dream you have slowly turns into reality. May you
+      always have a reason to smile, people who genuinely care about you,
+      and moments that make your heart feel warm. You deserve happiness,
+      peace and all the beautiful things life has to offer. 🌸✨
+
+      <br><br>
+
+      On your birthday, I just want to remind you how special you are.
+      Your smile can make an ordinary moment feel beautiful, and your
+      presence can make a normal day feel like a celebration. 🫶💗
+
+      <br><br>
+
+      I hope this new year of your life brings you new adventures,
+      beautiful memories, success and lots of reasons to be proud of
+      yourself. Keep smiling, keep shining and never stop being the
+      amazing person you are. 🌷
+
+      <br><br>
+
+      May every morning bring you new hope, every evening bring you peace,
+      and every day bring you something worth remembering. May your life
+      always be surrounded by people who respect you, support you and make
+      you feel loved. 💕✨
+
+      <br><br>
+
+      So today, forget every little worry and enjoy your special day.
+      Eat lots of cake, smile as much as possible, take beautiful pictures
+      and make memories that you can look back on with a big smile. 🎂📸
+
+      <br><br>
+
+      Once again, happiest birthday Aruuu. 💗
+
+      <br><br>
+
+      May this birthday be the beginning of your most beautiful chapter
+      yet. Keep your heart happy, your dreams big and your smile bright.
+      You deserve a beautiful year ahead. 🥹🌸
+
+      <br><br>
+
+      Happy Birthday once again, Aruuu! 🎂💗🎀
+
+    </div>
+
+  </div>
+
+  <div class="card">
+
+    <h2>🎁 Birthday Surprises</h2>
+
+    <div class="buttons">
+
+      <button onclick="cutCake()">
+        🎂 Cut Cake
+      </button>
+
+      <button onclick="teddy()">
+        🧸 Teddy Bear
+      </button>
+
+      <button onclick="decorate()">
+        🎀 Decoration
+      </button>
+
+      <button onclick="follow()">
+        💗 Follower
+      </button>
+
+    </div>
+
+    <div id="surprise"></div>
+
+  </div>
+
+  <footer>
+    Made with lots of 💗 just for Aruuu
+  </footer>
+
+</div>
+
+<script>
+
+function createHeart(){
+  const heart=document.createElement("div");
+  heart.className="heart";
+  heart.innerHTML=["💗","💕","💖","💘","❤️"][Math.floor(Math.random()*5)];
+  heart.style.left=Math.random()*100+"vw";
+  heart.style.fontSize=(20+Math.random()*25)+"px";
+  document.body.appendChild(heart);
+
+  setTimeout(()=>heart.remove(),5000);
+}
+
+function cutCake(){
+  document.getElementById("surprise").innerHTML=
+  "🎂✨ Cake cut ho gaya! Happy Birthday Aruuu! 💗🥳";
+
+  for(let i=0;i<20;i++){
+    setTimeout(createHeart,i*100);
+  }
+}
+
+function teddy(){
+  document.getElementById("surprise").innerHTML=
+  "🧸💗 A cute teddy bear hug just for you! 🤗💕";
+
+  for(let i=0;i<10;i++){
+    setTimeout(createHeart,i*150);
+  }
+}
+
+function decorate(){
+
+  document.getElementById("surprise").innerHTML=
+  "🎈🎀✨ Birthday decoration activated! ✨🎀🎈";
+
+  for(let i=0;i<15;i++){
+
+    const balloon=document.createElement("div");
+
+    balloon.className="balloon";
+
+    balloon.innerHTML=["🎈","🎀","✨","💗"][Math.floor(Math.random()*4)];
+
+    balloon.style.left=Math.random()*100+"vw";
+
+    balloon.style.bottom="-50px";
+
+    document.body.appendChild(balloon);
+
+    setTimeout(()=>balloon.remove(),7000);
+  }
+}
+
+function follow(){
+
+  document.getElementById("surprise").innerHTML=
+  "💗 Followed with love! You are truly special. 🫶";
+
+  for(let i=0;i<15;i++){
+    setTimeout(createHeart,i*120);
+  }
+}
+
+</script>
+
+</body>
+</html>
